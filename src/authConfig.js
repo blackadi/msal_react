@@ -10,11 +10,12 @@ import { LogLevel } from "@azure/msal-browser";
  * For a full list of MSAL.js configuration parameters, visit:
  * https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-browser/docs/configuration.md
  */
+
 export const msalConfig = {
   auth: {
-    clientId: "clientId from Azure AD app reg!",
-    authority: "check microsoft docs for the right endpoint based on your app reg!",
-    redirectUri: "URL to get the Code from auth server!",
+    clientId: process.env.REACT_APP_CLIENT_ID,
+    authority: process.env.REACT_APP_AUTHORITY,
+    redirectUri: process.env.REACT_APP_REDIRECT_URL,
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
@@ -60,5 +61,5 @@ export const loginRequest = {
  * https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-browser/docs/resources-and-scopes.md
  */
 export const graphConfig = {
-  graphMeEndpoint: "Microsoft graph API URL",
+  graphMeEndpoint: process.env.REACT_APP_GRAPH_ENDPOINT,
 };
