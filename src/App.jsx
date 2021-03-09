@@ -52,6 +52,7 @@ const ProfileContent = () => {
  * If a user is authenticated the ProfileContent component above is rendered. Otherwise a message indicating a user is not authenticated is rendered.
  */
 const MainContent = () => {
+  console.log("secret: "+process.env.REACT_APP_REDIRECT_URL);
   return (
     <div className="App">
       <AuthenticatedTemplate>
