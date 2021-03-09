@@ -32,6 +32,7 @@ const ProfileContent = () => {
 
   }
 
+  console.log("acoounts:" + accounts[0]);
   return (
     <>
         <h2 className="ui header brown">Welcome {accounts[0].name}</h2>
