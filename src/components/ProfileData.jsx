@@ -26,6 +26,7 @@ export const ProfileData = (props) => {
                                 <p><strong>Last Name: </strong> {props.graphData.surname}</p>
                                 <p><strong>Email: </strong> {props.graphData.userPrincipalName}</p>
                                 <p><strong>Mobile Phone: </strong> {props.graphData.mobilePhone}</p>
+                                <p><strong>Job: </strong> {props.graphData.jobTitle}</p>
                                 <p><strong>Id: </strong> {props.graphData.id}</p>
                             </div>
                         </div>
