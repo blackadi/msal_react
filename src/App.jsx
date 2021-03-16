@@ -62,7 +62,7 @@ const MainContent = () => {
 
       <UnauthenticatedTemplate>
         <div className="ui container">
-          <h5 className="ui floating message yellow"><i class="sign-in icon"></i>
+          <h5 className="ui floating message yellow"><i className="sign-in icon"></i>
             Please sign-in to see your profile information.
           </h5>
         </div>
