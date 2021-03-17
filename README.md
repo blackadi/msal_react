@@ -33,7 +33,7 @@ To get a local copy up and running, follow the given instructions below:
 3. Finally, open a browser and navigate to [http://localhost:3000](http://localhost:3000).
 
 
-### Installation via Docker
+## Installation via Docker
 ```sh
    docker run -it -p 3000:3000 blackadi2019/msal_spa
    ```
