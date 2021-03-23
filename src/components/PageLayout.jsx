@@ -19,7 +19,7 @@ export const PageLayout = (props) => {
     return (
         <>
             <div className="ui inverted pointing menu">
-                <a href="/" className="item ">
+                <a href="/msal_react/" className="item ">
                     <i  className="react icon blue"/>
                     BlackAdi
                 </a>
