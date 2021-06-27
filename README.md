@@ -38,4 +38,4 @@ To get a local copy up and running, follow the given instructions below:
    docker run -it -p 3000:3000 blackadi2019/msal_spa
    ```
 
-## [Live Demo Link] (https://blackadi.github.io/msal_react/)
+## [Live Demo Link](https://blackadi.github.io/msal_react/)
